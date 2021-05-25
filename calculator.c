@@ -2,6 +2,7 @@
 
 /* functions are add, subtract,multiply, divide, remainder*/
 
+#include <ctype.h>
 #include <stdio.h>
 
 int main() {
@@ -23,7 +24,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf(" Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers*);
 }
 
 for (i = 0; i < times; i++) {
@@ -41,7 +42,7 @@ continue;
 
 }
 
-printf(" The Sum Is: %f\n", result);
+printf("The Sum Is: %f\n", result);
 
 
 } else if (option == 's') {
@@ -53,7 +54,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf(" Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers*);
 }
 
 for (i = 0; i < times; i++) {
@@ -69,7 +70,7 @@ float result = digit;
 result = result - digit;
 }
 
-printf(" The Result Is: %f\n", result);
+printf("The Result Is: %f\n", result);
 
 } else if (option == 'm') {
 
@@ -81,7 +82,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf(" Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers*);
 }
 
 for (i = 0; i < times; i++) {
@@ -96,7 +97,7 @@ float result = digit;
 
 result = result * digit;
 }
-printf(" The Result Is: %f\n", result);
+printf("The Result Is: %f\n", result);
 } else if (option == 'd') {
 
 printf("How Many Numbers You Want To Divide? \n Input: ");
@@ -106,7 +107,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf(" Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers*);
 }
 
 for (i = 0; i < times; i++) {
@@ -121,7 +122,7 @@ float result = digit;
 
 result = result / digit;
 }
-printf(" Result: %f\n", result);
+printf("Result: %f\n", result);
 } else if (option == 'r') {
 printf("How Many Numbers You Want To Add? \n Input: ");
 
@@ -130,7 +131,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf(" Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers*);
 }
 
 for (i = 0; i < times; i++) {
@@ -145,7 +146,7 @@ float result = digit;
 
 result = result / digit;
 }
-printf(" The Reminder Would Be: %f\n", result);
+printf("The Reminder Would Be: %f\n", result);
 } else if (option == 'e') {
 
 printf("Bye Have A Great Time!!!\n");
