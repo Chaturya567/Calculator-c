@@ -24,7 +24,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf("Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers");
 }
 
 for (i = 0; i < times; i++) {
@@ -54,7 +54,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf("Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers");
 }
 
 for (i = 0; i < times; i++) {
@@ -82,7 +82,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf("Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers");
 }
 
 for (i = 0; i < times; i++) {
@@ -107,7 +107,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf("Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers");
 }
 
 for (i = 0; i < times; i++) {
@@ -131,7 +131,7 @@ int times, i;
 scanf("%d", &times);
 
 if (times <= 1) {
-printf("Enter Atleast 2 Numbers*);
+printf("Enter Atleast 2 Numbers");
 }
 
 for (i = 0; i < times; i++) {
