@@ -13,7 +13,7 @@ char useroption, option;
 
 scanf("%c", &useroption);
 
-option = toLower(useroption);
+option = tolower(useroption);
 
 if (option == 'a') {
 
