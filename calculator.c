@@ -13,7 +13,7 @@ char useroption, option;
 
 scanf("%c", &useroption);
 
-option =toLower(useroption);
+option = toLower(useroption);
 
 if (option == 'a') {
 
@@ -42,7 +42,7 @@ result = result + digit;
 if (i == times) {
 printf("The Sum Is: %f\n", result);
 }
-
+}
 
 } else if (option == 's') {
 
