@@ -38,11 +38,10 @@ scanf("%f", &digit);
 float result = digit;
 
 result = result + digit;
-continue;
 
-}
-
+if (i == times) {
 printf("The Sum Is: %f\n", result);
+}
 
 
 } else if (option == 's') {
@@ -68,9 +67,11 @@ scanf("%f", &digit);
 float result = digit;
 
 result = result - digit;
-}
 
+if (i == times) {
 printf("The Result Is: %f\n", result);
+}
+}
 
 } else if (option == 'm') {
 
@@ -96,8 +97,10 @@ scanf("%f", &digit);
 float result = digit;
 
 result = result * digit;
-}
+if (i == times) {
 printf("The Result Is: %f\n", result);
+}
+}
 } else if (option == 'd') {
 
 printf("How Many Numbers You Want To Divide? \n Input: ");
@@ -121,8 +124,10 @@ scanf("%f", &digit);
 float result = digit;
 
 result = result / digit;
+if (i == times) {
+printf("The Result Is: %f\n", result);
 }
-printf("Result: %f\n", result);
+}
 } else if (option == 'r') {
 printf("How Many Numbers You Want To Add? \n Input: ");
 
@@ -145,8 +150,10 @@ scanf("%f", &digit);
 float result = digit;
 
 result = result / digit;
+if (i == times) {
+printf("The Result Is: %f\n", result);
 }
-printf("The Reminder Would Be: %f\n", result);
+}
 } else if (option == 'e') {
 
 printf("Bye Have A Great Time!!!\n");
