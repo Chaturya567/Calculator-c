@@ -1,6 +1,6 @@
 /* calculator in c language, can be used to test (or) your works also, the code is open so you can use git*/
 
-/* functions are add, subtract,multiply, divide, remainder*
+/* functions are add, subtract,multiply, divide, remainder*/
 
 #include <stdio.h>
 
